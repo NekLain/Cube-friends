@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube-Slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css" />
+</head>
+<body>
+    <h1 class=" title animated bounceInDown delay-2s"> Фантастическая четверка </h1>
+      <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+    <div class="imgBx">
+        <img src="/img/dimas.jpg" alt="">
+    </div>
+    <div class="content">
+        <h2>Dimas<br><span> Сварщик</span></h2>
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="/img/danya.jpg" alt="">
+        </div>
+        <div class="content ">
+            <h2>Danya<br><span> Альпака</span></h2>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="./img/Tema.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Tema<br><span>Чертяка </span></h2>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="Niki">
+                    <img src="/img/Nikita.jpg"  alt="">
+                </div>
+                <div class="content">
+                    <h2>Nikita<br><span> Смурф</span></h2>
+                </div>
+                </div>
+    </div>
+  </div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      }
+    });
+  </script>
+  </body>
+</html>
